@@ -1,0 +1,72 @@
+@import "variables.css";
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+
+@import "no-mobile.css";
+@import "screen/welcome.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat-poo.css";
+
+html {
+  background-color: var(--mygreen);
+}
+
+body {
+  width: 500px;
+  height: 700px;
+  min-height: 500px;
+  background-color: var(--myyellow);
+  font-family: "Cabin", sans-serif;
+}
+
+.status-bar {
+  width: 480px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+.status-bar__items {
+  justify-content: center;
+}
+
+.nav {
+  position: fixed;
+  bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--mygreen-);
+  border-top: 1px solid var(--mygreen);
+}
+
+.nav a {
+  position: relative;
+  color: var(--mygreen);
+}
+
+.nav i {
+  color: var(--mygreen);
+}
+
+.chats-notice {
+  background-color: tomato;
+  color: white;
+  font-size: 1px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  padding: 6px;
+  border-radius: 50%;
+}
